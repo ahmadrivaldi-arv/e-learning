@@ -1,10 +1,12 @@
-    # web technologies used
-|tool| version  | type| 
-|--|--| -- |
-| Laravel | 10.x  | framework |
-| Inertia | 1.x | adapter |
-| ReactJs | >=16.9| library |
-| Vite | 4.2.x | assets bundling |
+
+|tool| version|
+|--|--|
+| Laravel | 10.x|
+| Inertia | 1.x |
+| ReactJs | >=16.9|
+| Vite | 4.2.x |
+
+using [ant-design](https://ant.design) as React UI library
 
 welcome to the e-learning project! To start contributing, fork this project to your github account.
 
