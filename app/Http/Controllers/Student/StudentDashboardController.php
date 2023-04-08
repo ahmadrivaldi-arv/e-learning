@@ -13,10 +13,11 @@ class StudentDashboardController extends Controller
         return inertia('student/HomeStudent');
     }
 
-    public function profile()
+    public function profile(Request $request)
     {
 
-        $text = 'Hello ahmad rivaldi';
+        /** just for an example, write your code here for user profile*/
+        $text = "Hi " . $request->name ?: "Guest";
 
         return inertia('student/StudentProfile',compact('text'));
     }
