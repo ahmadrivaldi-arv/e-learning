@@ -6,7 +6,7 @@
 | ReactJs | >=16.9| library |
 | Vite | 4.2.x | assets bundling |
 
-welcome to e-learning project to start for contribution, fork this project to your github
+welcome to the e-learning project! To start contributing, fork this project to your github account.
 
 and then run this command to install all dependencies
 
