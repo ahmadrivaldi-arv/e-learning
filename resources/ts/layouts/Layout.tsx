@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
-import { BookOutlined, UserOutlined, WhatsAppOutlined, SendOutlined, DashboardOutlined, SettingOutlined } from '@ant-design/icons';
-import type { MenuProps } from 'antd';
-import { Menu } from 'antd';
-import { router, usePage} from '@inertiajs/react';
 import Navbar from './sections/Navbar';
+import {Head} from "@inertiajs/react";
 
-
-const Layout: React.FC = ({ children }) => {
+const Layout: React.FC = ({ children,title }) => {
 
     return (
         <>
+            <Head title={title}/>
+
             <Navbar/>
 
             <div style={{ width: '80%', margin: '100px auto' }}>
