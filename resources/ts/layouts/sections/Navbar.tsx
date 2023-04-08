@@ -17,8 +17,8 @@ const items: MenuProps['items'] = [
         icon: <UserOutlined />
     },
     {
-        label: "Lesssons",
-        key: 'student.lessons',
+        label: "Matkul",
+        key: 'student.subjects',
         icon: <BookOutlined />
     },
 ]
@@ -32,14 +32,14 @@ const Navbar: React.FC = () => {
 
         setCurrent(e.key);
 
-        router.visit(route(e.key), {
+        // @ts-ignore
+        router.visit( route(e.key), {
             preserveState: true,
         })
     };
 
     return (
         <>
-
             <Menu onClick={onClick} selectedKeys={[currentRoute]} mode="horizontal" items={items} />
         </>
     );

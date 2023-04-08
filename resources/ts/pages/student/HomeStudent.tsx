@@ -9,8 +9,7 @@ const HomeStudent: React.FC = () => {
 
     return (
         <>
-            <Layout>
-                <Head title="Dashboard" />
+            <Layout title="Dashboard">
 
             </Layout>
         </>
